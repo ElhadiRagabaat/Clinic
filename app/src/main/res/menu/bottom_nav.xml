@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:title="الصفحة الرئيسية"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+
+
+    <item
+        android:id="@+id/navigation_doctor"
+        android:title="الأطباء"
+        android:icon="@drawable/ic_baseline_group_24"/>
+
+
+
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_booking"-->
+<!--        android:title="الحجز"-->
+<!--        -->
+<!--        android:icon="@drawable/ic_baseline_library_books_24"/>-->
+
+    <item
+        android:id="@+id/navigation_admin"
+        android:title="الادارة"
+
+
+        android:icon="@drawable/ic_baseline_group_24"/>
+
+
+</menu>

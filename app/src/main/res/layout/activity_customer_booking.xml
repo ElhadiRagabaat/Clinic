@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    tools:context=".admin.CustomerBookingActivity">
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/fab"-->
+<!--        style="@style/Widget.Design.FloatingActionButton"-->
+<!--        android:layout_gravity="bottom|right"-->
+<!--        android:layout_margin="17dp"-->
+<!--        android:src="@drawable/ic_add"-->
+<!--        android:elevation="5dp"-->
+<!--        app:fabSize="normal"/>-->
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="إزالة الرواسب الكلسية"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/design_default_color_primary"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/csDepartment"
+                android:elevation="8dp"
+
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/csNoData"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <include layout="@layout/no_data_found"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#c1c1c1"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="عمليات حشو للأسنان"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/design_default_color_primary"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="12dp"
+                android:id="@+id/MechanicalDepartment"
+                android:visibility="gone"
+                android:layout_marginBottom="10dp"
+                android:nestedScrollingEnabled="false"/>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mechNoData"
+
+                android:orientation="vertical">
+
+                <include layout="@layout/no_data_found"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#c1c1c1"/>
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="عمليات إستئصال للأسنان"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/design_default_color_primary"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="12dp"
+                android:id="@+id/phisicDepartment"
+                android:visibility="gone"
+
+                android:layout_marginBottom="10dp"
+                android:nestedScrollingEnabled="false"/>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/physicsNoData"
+                android:orientation="vertical">
+
+                <include layout="@layout/no_data_found"/>
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#c1c1c1"/>
+
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اخري"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/design_default_color_primary"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:elevation="12dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ChemistryDepartment"
+                android:visibility="gone"
+                android:layout_marginBottom="10dp"
+                android:nestedScrollingEnabled="false"/>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ChemistryNoData"
+                android:orientation="vertical">
+
+                <include layout="@layout/no_data_found"/>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#c1c1c1"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

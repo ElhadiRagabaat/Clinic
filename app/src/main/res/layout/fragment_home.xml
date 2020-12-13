@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.HomeFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="1dp"
+
+                android:layout_height="380dp"
+                android:id="@+id/slider"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="للحفاظ على صحة الأسنان"
+                android:layout_marginTop="6dp"
+                android:textSize="25sp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/latoregular"
+                android:textColor="@color/teal_200"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newname"
+                android:layout_marginTop="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textColor="@color/textColor"
+                android:fontFamily="@font/latoregular"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@color/darkColor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="36dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/text_margin"
+                        android:fontFamily="@font/latobold"
+                        android:text="العنايات المقدمة في العيادة:"
+                        android:textColor="#fff"
+                        android:textSize="@dimen/title_size" />
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#fff"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:fontFamily="@font/latolight"
+                                android:text="إزالة الرواسب الكلسية"
+                                android:textColor="@color/textColor"
+                                android:textSize="@dimen/text_size" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:fontFamily="@font/latolight"
+                                android:text="عمليات حشو للأسنان"
+                                android:textColor="@color/textColor"
+                                android:textSize="@dimen/text_size" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="8dp"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:fontFamily="@font/latolight"
+                                android:text="عمليات إستئصال للأسنان"
+                                android:textColor="@color/textColor"
+                                android:textSize="@dimen/text_size" />
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin">
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="تواصل معنا"
+                    android:layout_marginTop="36dp"
+                    android:textSize="30sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/textColor"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tel. (+972)  ​548726198"
+
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@font/latolight"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email: info@Ragabaat.org"
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@font/latolight"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Whatsapp. (+972) 54-8726198 "
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@font/latolight"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ساعات الاتصال عبر الهاتف:
+                                 الأحد - الخميس 11:00 - 16:00
+​                                                         "
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@font/latolight"/>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="احجز الان .."
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/button_color"
+                android:layout_marginTop="6dp"
+                android:textAllCaps="false"
+                android:id="@+id/addCosBtn"/>
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</FrameLayout>

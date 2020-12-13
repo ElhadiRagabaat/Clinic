@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "902117154451",
+    "firebase_url": "https://clinic-f2218-default-rtdb.firebaseio.com",
+    "project_id": "clinic-f2218",
+    "storage_bucket": "clinic-f2218.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902117154451:android:b1cca93078b0f255383766",
+        "android_client_info": {
+          "package_name": "com.ragabaat.clinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902117154451-52ri4kgum4b6i44ppatm8fahrlj49id9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-VatbVYc1bysMLZ53LjSk50hy7Ka8c5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902117154451-52ri4kgum4b6i44ppatm8fahrlj49id9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902117154451:android:ee054429e4c7dacb383766",
+        "android_client_info": {
+          "package_name": "com.ragabaat.myclinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902117154451-52ri4kgum4b6i44ppatm8fahrlj49id9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-VatbVYc1bysMLZ53LjSk50hy7Ka8c5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902117154451-52ri4kgum4b6i44ppatm8fahrlj49id9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
